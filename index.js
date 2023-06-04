@@ -1,10 +1,14 @@
 #!/usr/bin/env node
 
-// index.js
 const prompt = require('prompt');
+const colors = require('colors');
 const { backupWebsite } = require('./backupWebsite');
 
+prompt.message = '';
+prompt.delimiter = '';
 prompt.start();
+
+prompt.colors = false;
 
 const url = process.argv[2];
 
@@ -16,7 +20,9 @@ if (!url) {
 prompt.get({
     properties: {
         frequency: {
-            description: "Please choose backup frequency (1:One-time, 2:Daily, 3:Weekly, 4:Monthly)"
+            description: colors.cyan("Please choose backup frequency (1:One-time, 2:Daily, 3:Weekly, 4:Monthly)"),
+            message: colors.red("Frequency is required"),
+            required: true
         }
     }
 }, function (err, result) {
