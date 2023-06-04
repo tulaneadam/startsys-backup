@@ -22,3 +22,7 @@ After `wget` is installed, you can install `startsys-backup` by running `npm ins
 To backup a website, run `startsys-backup <url>` (Ex. startsys-backup https://www.startup-systems.com/ ). You'll then be prompted to choose the backup frequency (1:one-time, 2:daily, 3:weekly, or 4:monthly).
 
 Please note that if you choose daily, weekly, or monthly, the backups will run at the time you start the command and will continue at the same time based on the frequency you chose.
+
+## Github
+
+The link to this project on github is https://github.com/tulaneadam/startsys-backup
