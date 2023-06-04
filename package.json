@@ -18,7 +18,8 @@
     "startsys-backup": "./index.js"
   },
   "dependencies": {
-    "prompt": "^1.3.0"
+    "prompt": "^1.3.0",
+    "colors": "^1.4.0"
   },
   "devDependencies": {
     "jest": "^29.5.0"
