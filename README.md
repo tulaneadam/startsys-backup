@@ -17,8 +17,8 @@
 1. `wget` is usually pre-installed on most Linux distributions. If not, you can install it by typing `sudo apt-get install wget` in the Terminal.
 2. To check the installation, open Terminal and type `wget --version`.
 
-After `wget` is installed, you can install `startsys-backup` by running `npm install -g startsys-backup`.
+After `wget` is installed, you can install `startsys-backup` by running `npm install startsys-backup` in the target folder.
 
-To backup a website, run `startsys-backup <url>`. You'll then be prompted to choose the backup frequency (1:one-time, 2:daily, 3:weekly, or 4:monthly).
+To backup a website, run `startsys-backup <url>` (Ex. startsys-backup https://www.startup-systems.com/ ). You'll then be prompted to choose the backup frequency (1:one-time, 2:daily, 3:weekly, or 4:monthly).
 
 Please note that if you choose daily, weekly, or monthly, the backups will run at the time you start the command and will continue at the same time based on the frequency you chose.
