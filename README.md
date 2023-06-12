@@ -1,6 +1,8 @@
 # startsys-backup README
 
-`startsys-backup` is an application that backs up websites using `wget`. This application requires `wget` to be installed on your system. Below are the instructions for installing `wget` for different operating systems:
+`startsys-backup` is simple backup utility to make repeated or single use website backups to html using wget. 
+
+This application requires `wget` to be installed on your system. Below are the instructions for installing `wget` for different operating systems:
 
 ## Windows
 
